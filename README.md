@@ -24,15 +24,4 @@ PENYIMPANAN
   API server dan database terpusat dengan autentikasi perangkat.
 
 
-PENOMORAN ID MALL DIMULAI DARI 1
-- Tidak ada lagi slot dummy ID 1-3.
-- Mall pertama yang ditambahkan melalui menu Tambah Mall mendapat ID 1.
-- Mall kedua mendapat ID 2, dan seterusnya.
-- scanner_config.py secara default memakai MALL_ID = 1.
-- Jika memakai database dari versi sebelumnya yang masih berisi slot dummy
-  ID 1-3 dan mall operasional mulai ID 4, buat salinan cadangan lalu pindahkan
-  file smartpark_terpusat.db lama keluar dari folder proyek sebelum menjalankan
-  versi ini. Database baru akan dibuat dan penomoran dimulai lagi dari 1.
-- PERHATIAN: memulai database baru berarti data kendaraan, pengguna, mall,
-  dan riwayat transaksi di database lama tidak ikut terbawa. Simpan file lama
-  sebagai cadangan jika data tersebut masih diperlukan.
+
