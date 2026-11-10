@@ -1,4 +1,4 @@
-SMARTPARK TERPUSAT - SCANNER LOKASI OTOMATIS
+# SMARTPARK TERPUSAT - SCANNER LOKASI OTOMATIS
 
 1. Buka folder proyek ini di VS Code.
 2. Jalankan: python -m pip install -r requirements.txt
